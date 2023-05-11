@@ -1,0 +1,14 @@
+
+
+<form action='/actualizar/{{ clientedata.0 }}', method='POST'>
+
+    <input type="text" name ="cedula" placeholder="cedula" value="{{ clientedata.0 }}">
+    <input type="text" name ="nombre" placeholder="nombre"value="{{ clientedata.1 }}">
+    <input type="text" name ="apellido" placeholder="apellido"value="{{ clientedata.2 }}">
+    <input type="text" name ="telefono" placeholder="telefono"value="{{ clientedata.3}} ">
+    <input type="text" name ="direccion" placeholder="direccion"value="{{ clientedata.4}} ">
+    <button class="button button-primary" type="submit">
+        Save
+    </button>
+
+</form>

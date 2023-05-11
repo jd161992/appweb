@@ -1,0 +1,55 @@
+#sidebar {
+    position: fixed;
+    width: 170px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.541);
+    left: -170px;
+    transition: all 500ms linear;
+}
+
+#sidebar.active {
+    left: -20px;
+}
+
+#sidebar ul li{
+    color: #c0c0aa;
+    text-align: center;
+    list-style: none;
+}
+
+.logo {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+#sidebar .toggle-btn{
+    position: absolute;
+    left: 170px;
+    top: 20px;
+    cursor: pointer;
+}
+
+#sidebar .toggle-btn span {
+    display: block;
+    width: 40px;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid #000;
+}
+
+.centrado {
+    text-align: center;
+}
+
+body {
+    background: #c0c0aa;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.cuadroagregar {
+    height: 100%;
+    border: 1px solid #f5eaea; 
+    text-align: center;
+}
